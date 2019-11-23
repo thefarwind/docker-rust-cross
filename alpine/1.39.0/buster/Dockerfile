@@ -1,4 +1,4 @@
-FROM rust:{{VERSION}}
+FROM rust:1.39.0-buster
 
 RUN set -xe; \
 	apt-get update; \
